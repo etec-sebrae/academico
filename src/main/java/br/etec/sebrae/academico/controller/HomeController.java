@@ -19,7 +19,7 @@ import br.etec.sebrae.academico.dto.Login;
 @Controller
 public class HomeController {
 	
-	final String url = "http://localhost:8001/login/v1/";
+	final String url = "https://acabemico-sebrae-api.herokuapp.com/login/v1/";
 	RestTemplate rest = new RestTemplate();	
 	
 	@GetMapping("/")
